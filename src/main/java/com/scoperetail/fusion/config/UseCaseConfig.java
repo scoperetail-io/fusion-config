@@ -3,7 +3,7 @@ package com.scoperetail.fusion.config;
 
 /*-
  * *****
- * fusion-messaging
+ * fusion-config
  * -----
  * Copyright (C) 2018 - 2021 Scope Retail Systems Inc.
  * -----
@@ -42,6 +42,7 @@ public class UseCaseConfig {
   private HashKeyTransformationType hashKeyTransformationType;
 
   public enum HashKeyTransformationType {
-    HASH_KEY_FTL_TRANSFORMER, HASH_KEY_VELOCITY_TRANSFORMER;
+    HASH_KEY_FTL_TRANSFORMER,
+    HASH_KEY_VELOCITY_TRANSFORMER;
   }
 }

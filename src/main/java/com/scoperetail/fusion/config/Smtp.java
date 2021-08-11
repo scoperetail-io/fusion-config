@@ -2,7 +2,7 @@ package com.scoperetail.fusion.config;
 
 /*-
  * *****
- * fusion-messaging
+ * fusion-config
  * -----
  * Copyright (C) 2018 - 2021 Scope Retail Systems Inc.
  * -----

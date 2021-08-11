@@ -2,7 +2,7 @@ package com.scoperetail.fusion.config;
 
 /*-
  * *****
- * fusion-messaging
+ * fusion-config
  * -----
  * Copyright (C) 2018 - 2021 Scope Retail Systems Inc.
  * -----
@@ -30,10 +30,10 @@ import lombok.Data;
 
 @Data
 public class KafkaSecurityConfig {
-	private String securityProtocol;
-	private String saslJaasConfig;
-	private String sslTruststoreLocation;
-	private String sslTruststorePassword;
-	private String listenerAckMode;
-	private String saslMechanism;
+  private String securityProtocol;
+  private String saslJaasConfig;
+  private String sslTruststoreLocation;
+  private String sslTruststorePassword;
+  private String listenerAckMode;
+  private String saslMechanism;
 }

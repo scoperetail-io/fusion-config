@@ -2,7 +2,7 @@ package com.scoperetail.fusion.config;
 
 /*-
  * *****
- * fusion-messaging
+ * fusion-config
  * -----
  * Copyright (C) 2018 - 2021 Scope Retail Systems Inc.
  * -----
@@ -30,8 +30,8 @@ import lombok.Data;
 
 @Data
 public class KafkaProducer {
-	private String keySerializerClass;
-	private String valueSerializerClass;
-	private String retryBackoffMs;
-	private String retries;
+  private String keySerializerClass;
+  private String valueSerializerClass;
+  private String retryBackoffMs;
+  private String retries;
 }
