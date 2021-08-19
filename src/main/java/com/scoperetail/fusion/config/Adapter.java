@@ -79,6 +79,7 @@ public class Adapter {
   private String brokerId;
   private String errorQueName;
   private String topicName;
+  private String readConcurrency;
   //BO
   private String boBrokerId;
   private String boQueueName;
