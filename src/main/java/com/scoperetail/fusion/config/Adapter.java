@@ -74,6 +74,7 @@ public class Adapter {
   private AdapterType adapterType;
   private TransportType trasnportType;
   private UsecaseResult usecaseResult;
+  private final List<String> retryCustomizers = new ArrayList<>();
   // JMS & KAFKA
   private String template;
   private String brokerId;
