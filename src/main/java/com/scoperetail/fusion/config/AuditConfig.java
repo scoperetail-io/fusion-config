@@ -31,6 +31,6 @@ import lombok.Data;
 @Data
 public class AuditConfig {
   private boolean enabled;
-  private String brokerId;
-  private String queueName;
+  private String targetBrokerId;
+  private String targetQueueName;
 }
